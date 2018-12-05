@@ -15,4 +15,5 @@ public interface LoginView {
     void onClickLogin();
     void onClickImage();
     void onClickTexView();
+
 }

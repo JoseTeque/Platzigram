@@ -19,6 +19,7 @@
         design:menu="@menu/menu_navigation"
         >
 
+
     </android.support.design.widget.BottomNavigationView>
 
 </android.support.design.widget.CoordinatorLayout>

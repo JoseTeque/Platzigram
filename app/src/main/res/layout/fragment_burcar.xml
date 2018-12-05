@@ -27,6 +27,7 @@
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
             android:layout_marginBottom="70dp"
+
             >
 
         </android.support.v7.widget.RecyclerView>

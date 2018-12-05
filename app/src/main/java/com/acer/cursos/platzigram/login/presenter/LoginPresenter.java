@@ -8,4 +8,7 @@ public interface LoginPresenter {
     void signIn(String username, String password, Activity activity,FirebaseAuth firebaseAuth);
     void LoginSuccess();
     void LoginError(String error);
+
+
+
 }

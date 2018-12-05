@@ -21,6 +21,7 @@
             android:layout_weight="6"
             android:background="@color/backgroundtext_card"
             android:scaleType="centerCrop"
+
             />
 
         <android.support.design.widget.TextInputLayout

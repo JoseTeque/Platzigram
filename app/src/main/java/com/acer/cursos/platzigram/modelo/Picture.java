@@ -1,6 +1,7 @@
 package com.acer.cursos.platzigram.modelo;
 
 public class Picture {
+
     private String imagen;
     private String fechacard;
     private String usernamecard;
@@ -11,6 +12,7 @@ public class Picture {
         this.fechacard = fechacard;
         this.usernamecard = usernamecard;
         this.likecard = likecard;
+
     }
 
     public String getImagen() {

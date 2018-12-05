@@ -17,6 +17,7 @@ public class LoginRepositoryInput implements LoginRepository {
     private LoginPresenter loginPresenter;
 
     public LoginRepositoryInput(LoginPresenter loginPresenter) {
+
         this.loginPresenter = loginPresenter;
     }
 

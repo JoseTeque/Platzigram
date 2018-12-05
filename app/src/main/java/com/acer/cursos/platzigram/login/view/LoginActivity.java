@@ -42,6 +42,7 @@ import java.util.Arrays;
 
 public class LoginActivity extends AppCompatActivity implements LoginView{
 
+
     private TextInputEditText nombreUsuario, password;
     private Button login;
     private ProgressBar progressBarLogin;

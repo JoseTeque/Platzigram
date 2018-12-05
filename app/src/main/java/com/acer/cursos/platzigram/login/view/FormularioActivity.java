@@ -22,6 +22,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class FormularioActivity extends AppCompatActivity {
 
+
     private static final String TAG = "FormularioActivity";
     private FirebaseAuth firebaseAuth;
     private FirebaseAuth.AuthStateListener authStateListener;

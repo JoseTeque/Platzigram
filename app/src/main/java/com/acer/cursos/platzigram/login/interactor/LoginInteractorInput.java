@@ -9,6 +9,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class LoginInteractorInput implements LoginInterator {
 
+
     private LoginPresenter   loginPresenter;
     private LoginRepository  loginRepository;
 

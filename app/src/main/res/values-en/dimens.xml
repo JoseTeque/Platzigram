@@ -36,4 +36,5 @@
     <dimen name="limitY_usernameToolbarPerfilImagen">-156dp</dimen>
     <dimen name="marginTargetY_usernameToolbarPerfil">-15dp</dimen>
     <dimen name="Textsize_usernameDetalle">18sp</dimen>
+
 </resources>
