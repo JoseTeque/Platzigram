@@ -22,7 +22,7 @@ import java.util.ArrayList;
 
 public class AdapterImagen extends RecyclerView.Adapter<AdapterImagen.ViewHolderAdapter> {
 
-      ArrayList<Picture> pictures;
+      private ArrayList<Picture> pictures;
       private int recursos;
       private Activity activity;
 
@@ -30,6 +30,7 @@ public class AdapterImagen extends RecyclerView.Adapter<AdapterImagen.ViewHolder
         this.pictures = pictures;
         this.recursos = recursos;
         this.activity = activity;
+
     }
 
     @NonNull
@@ -46,9 +47,9 @@ public class AdapterImagen extends RecyclerView.Adapter<AdapterImagen.ViewHolder
         Picture picture= pictures.get(i);
 
 
-        viewHolderAdapter.fechacard.setText(picture.getFechacard().toString());
-        viewHolderAdapter.usernamecard.setText(picture.getUsernamecard().toString());
-        viewHolderAdapter.likecard.setText(picture.getLikecard().toString());
+        viewHolderAdapter.fechacard.setText(picture.getFechacard());
+        viewHolderAdapter.usernamecard.setText(picture.getUsernamecard());
+        viewHolderAdapter.likecard.setText(picture.getLikecard());
         Picasso.get()
                .load(picture.getImagen())
                .into(viewHolderAdapter.imagencard);
@@ -84,13 +85,13 @@ public class AdapterImagen extends RecyclerView.Adapter<AdapterImagen.ViewHolder
         private TextView   fechacard;
         private TextView   likecard;
 
-        public ViewHolderAdapter(@NonNull View itemView) {
+       public ViewHolderAdapter(@NonNull View itemView) {
             super(itemView);
 
-            imagencard    =(ImageView)itemView.findViewById(R.id.IdImage);
-            usernamecard  =(TextView)itemView.findViewById(R.id.IdNombreCard);
-            fechacard     =(TextView)itemView.findViewById(R.id.IDnumeroFecha);
-            likecard      =(TextView)itemView.findViewById(R.id.IDlikeNumero);
+            imagencard    =itemView.findViewById(R.id.IdImage);
+            usernamecard  =itemView.findViewById(R.id.IdNombreCard);
+            fechacard     =itemView.findViewById(R.id.IDnumeroFecha);
+            likecard      =itemView.findViewById(R.id.IDlikeNumero);
         }
     }
 }
