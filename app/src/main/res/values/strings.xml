@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Platzigram</string>
+    <string name="title_activity_referencia">ReferenciaActivity</string>
+    <string name="hint_nombre">Nombre de Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="text_button">Login</string>
+    <string name="CUENTA">¿No tienes cuenta?,</string>
+    <string name="CREAR">crea una aqui</string>
+    <string name="hint_correo">Correo</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_contraseña">Contraseña</string>
+    <string name="hint_confirmar_contraseña">Confirmar contraseña</string>
+    <string name="text_unete">Unete</string>
+    <string name="toolbar_titulo">Crear cuenta</string>
+    <string name="Nombre_card">José Guerra</string>
+    <string name="fecha">Hace: </string>
+    <string name="Numero_fecha">4 dias</string>
+    <string name="likeNumero_card">10 Me Gusta</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Buscar">Buscar</string>
+    <string name="inicio">Home</string>
+    <string name="profile">YO</string>
+    <string name="text_like_detalle">Me Gusta</string>
+    <string name="titulo_detalle">\"Todos copas en la playa\"</string>
+    <string name="Descripcion_Image_detalle">\" Un diodo es un componente electrónico de dos terminales que permite la circulación de la corriente eléctrica a través de él en un solo sentido,1​ bloqueando el paso si la corriente circula en sentido contrario, no solo sirve para la circulación de corriente eléctrica sino que este la controla y resiste".</string>
+    <string name="transitionNameIumage">transitionNameImage</string>
+    <string name="hint_titulo">Titulo</string>
+    <string name="hint_Descripcion">Descripción</string>
+    <string name="text_crearPost">Crear Post</string>
+
+    <string name="facebook_app_id">2102478973395719</string>
+    <string name="fb_login_protocol_scheme">fb2102478973395719</string>
+    <string name="menu_signOut">Cerrar Sesion</string>
+    <string name="menu_About">Acerca de</string>
+
+</resources>

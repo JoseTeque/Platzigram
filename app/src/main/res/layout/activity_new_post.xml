@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".post.view.NewPostActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/IDimageNewPost"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:background="@color/backgroundtext_card"
+            android:scaleType="centerCrop"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:theme="@style/editTextBlack"
+            android:layout_marginTop="@dimen/editText_margin_top"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/IDeditextTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_titulo"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:theme="@style/editTextBlack"
+            android:layout_marginTop="@dimen/editText_margin_top"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/IDeditextDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_Descripcion"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/IDCrearPOST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_crearPost"
+            android:layout_marginTop="15dp"
+            android:theme="@style/RaisedButtonDark"
+            />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

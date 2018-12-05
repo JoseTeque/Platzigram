@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/IDBuscar"
+        android:title="@string/Buscar"
+        android:icon="@drawable/icons8_search_24"
+        />
+
+    <item
+        android:id="@+id/IDinicio"
+        android:title="@string/inicio"
+        android:icon="@drawable/icons8_home_24"
+        />
+
+    <item
+        android:id="@+id/IDPerfil"
+        android:title="@string/profile"
+        android:icon="@drawable/icons8_user_24"
+        />
+
+</menu>
